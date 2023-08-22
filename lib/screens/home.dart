@@ -35,6 +35,7 @@ class HomeScreen extends StatelessWidget {
               Text('Timezone Abbreviation: ${userController.userData.value.timezoneAbbreviation}'),
               Text('Elevation: ${userController.userData.value.elevation}'),
               SizedBox(height: 24.0),
+
               Text(
                 'Current Weather:',
                 style: TextStyle(
